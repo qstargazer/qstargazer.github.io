@@ -6,8 +6,8 @@ links:
     website: https://github.com
     image: https://pic.imgdb.cn/item/65927ef2c458853aefd7b5ce.jpg
 menu:
-    main: 
-        weight: -50
+    main:
+        weight: 3
         params:
             icon: link
 

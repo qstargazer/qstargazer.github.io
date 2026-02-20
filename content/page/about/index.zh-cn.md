@@ -9,12 +9,11 @@ aliases:
 license: CC BY-NC-ND
 lastmod: '2020-10-09'
 menu:
-    main: 
-        weight: -90
+    main:
+        weight: -1
         params:
             icon: user
 ---
-
 ![](https://pic.imgdb.cn/item/6280a60a0947543129e96531.jpg)
 
 # 关于网站
