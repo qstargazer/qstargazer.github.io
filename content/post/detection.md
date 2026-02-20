@@ -16,7 +16,7 @@ image: ""
 
 <!--more-->
 
-![](https://pic.imgdb.cn/item/624c3253239250f7c5dee479.png)
+![](https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260220202531793.png?imageSlim)
 
 ## 混合检测的数学原理
 
@@ -98,7 +98,6 @@ $$
 
 的解就可以求出$k$的数值。另一种近似解的估值可以通过二项式展开的简化得到
 
-
 求导得出$k = \frac{1}{\sqrt{p}}$。使用软件绘制函数的图像如下
 ![img](https://mmbiz.qpic.cn/mmbiz_jpg/C58GFHZjq0icEPV3rWoeiappKkTibuV6aDYt0hcwoQ0NjBxgVpvf4NMdBiaN6juGBsmK2C4CbH7iaNqLwic9zQnHBlxg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
 
@@ -140,7 +139,6 @@ $$
 
 根据上面的假设，计算
 
-
 从上面的公式可以看出假阳性人数占比较高，就会造成检测结果的不准确性，所以要提高阳性检测的准确率就需要尽量降低假阳性的病例，
 
 1. 提高试剂检测的特异度，如果将特异度提高到100%，那么就不会有没有感染的人被判定为假阳性，准确率是100%；
@@ -172,7 +170,6 @@ Pr(AB) = Pr(A|B)Pr(B)
 $$
 
 可以得到$Pr(+D) = Pr(+|D)Pr(D)$，带入到上面的式子可以得到
-
 
 $$
 \begin{align}

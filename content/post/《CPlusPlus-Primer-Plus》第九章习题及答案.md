@@ -5,7 +5,7 @@ tags:
 - c++
 categories:
 - 技艺
-image: "https://raw.githubusercontent.com/bugxch/blogpics/master/202001/c%2B%2B.jpg"
+image: "https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260220201927132.jpg"
 ---
 假期做题，记录下。
 
@@ -102,4 +102,3 @@ another(): 10, -4
 4, 1, 2
 2
 ```
-
