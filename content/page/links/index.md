@@ -1,33 +1,48 @@
 ---
-title: Links
+title: 收集
 links:
   - title: GitHub
     description: GitHub is the world's largest software development platform.
     website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    image: https://pic.imgdb.cn/item/65927ef2c458853aefd7b5ce.jpg
 menu:
     main: 
-        weight: 4
+        weight: -50
         params:
             icon: link
 
 comments: false
 ---
+![](https://pic.imgdb.cn/item/626a76df239250f7c590771e.jpg)
 
-To use this feature, add `links` section to frontmatter.
+---
 
-This page's frontmatter:
+## 个人博客
 
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
+- [产品沉思录 · Product Thinking](https://pmthinking.com/)，2020年发现的比较好的产品的网站
+- [LoveIt](https://hugoloveit.com/zh-cn/)，当前网站的主题介绍文章，可以参考文章插入图片、视频和音乐
+- [ShareTechnote](http://www.sharetechnote.com/)，一个韩国高级工程师搭建的专业知识共享网站
+- [酷壳 – CoolShell.cn](https://coolshell.cn/)，左耳朵耗子的官方博客，对我影响比较大的技术大佬
+- [科学空间|Scientific Spaces](https://spaces.ac.cn/)，非常不错的后生，天文、数学、AI、竞赛，博文质量极高，在这么小的年龄以十年的尺度更新不辍，非常难得
+- [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)，IT圈子中小有名气的大佬，比较喜欢他每周一推的科技爱好者周刊系列
+- [HuoJu&#39;s BLOG](https://jhuo.ca/)，一个在盛大创新院干过的大佬的博客
+- [labuladong的算法小抄](https://labuladong.gitbook.io/algo/)，数据结构与算法的不错的博客
+- [好书推荐-什么值得读-推荐一本好书](https://www.shenmezhidedu.com/)，好书推荐网站
+- [书伴](https://bookfere.com/)，kindle配套的不错的网站
+- [卢昌海个人主页](https://www.changhai.org/index.php)，卢昌海的个人网站
+- [MacTalk-池建强的随想录 | 让创作成为一种生活方式](https://macshuo.com/)，一个持续创业者
 
-`image` field accepts both local and external images.
+## 技术网站
+
+- [cppreference.com](https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5)，c++参考手册中文版
+- [现代 C++ 教程: 高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/)，现代C++高速上手
+  [Problem Solving with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures](https://runestone.academy/runestone/books/published/pythonds/index.html)，python数据结构与算法
+- [Rust 程序设计语言 - Rust 程序设计语言 简体中文版](https://kaisery.github.io/trpl-zh-cn/title-page.html)，Rust语言教程
+- [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main)，C++核心指南
+- [凤凰架构：构筑可靠的大型分布式系统 | 凤凰架构](http://icyfenix.cn/)，凤凰架构在线电子书
+- [Learn CSS](https://web.dev/learn/css/)，google的CSS教程
+- [Problem Solving with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures](https://runestone.academy/runestone/books/published/pythonds/index.html)，python的数据结构与算法
+
+## 其他网站
+
+- [必应壁纸｜必应美图 -超高质量的必应壁纸4K无水印下载](https://www.todaybing.com/)

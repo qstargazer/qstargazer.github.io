@@ -10,7 +10,7 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
+    since      = 2016
     customText = ""
 
 [dateFormat]
@@ -24,7 +24,7 @@ SortBy              = "default"
 
 [article]
     headingAnchor = false
-    math          = false
+    math          = true
     readingTime   = true
 
     [article.license]

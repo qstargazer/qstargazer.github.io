@@ -8,11 +8,11 @@
 
 [zh]
     languageName = "简体中文"
-    title        = "Hugo 主题 Stack"
+    title        = "巴巴变的博客"
     weight       = 2
 
     [zh.params.sidebar]
-        subtitle = "为博客设计的卡片式 Hugo 主题"
+        subtitle = "平凡的生活也值得记录"
 
 [zh-hant-tw]
     languageName = "正體中文"
