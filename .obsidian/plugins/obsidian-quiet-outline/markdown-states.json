@@ -86,7 +86,7 @@
     "expandedKeys": []
   },
   "content/post/image-gallery/index.md": {
-    "scroll": 0,
+    "scroll": 21.441259842519685,
     "cursor": {
       "from": {
         "line": 6,
@@ -98,5 +98,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "content/post/大模型知识之一 —— 基础架构.md": {
+    "scroll": 5.573770491803279,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 3
+      },
+      "to": {
+        "line": 18,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }

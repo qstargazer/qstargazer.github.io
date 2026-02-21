@@ -58,16 +58,16 @@
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
-      "enabled": false,
-      "date-created": true,
+      "enabled": true,
+      "date-created": false,
       "date-created-key": "date created",
       "date-created-source-of-truth": "file system",
       "date-modified": true,
-      "date-modified-key": "date modified",
+      "date-modified-key": "lastmod",
       "date-modified-source-of-truth": "file system",
-      "format": "dddd, MMMM Do YYYY, h:mm:ss a",
+      "format": "YYYY-MM-DD",
       "convert-to-utc": false,
-      "update-on-file-contents-updated": "never"
+      "update-on-file-contents-updated": "after 10 seconds"
     },
     "yaml-title": {
       "enabled": false,
@@ -243,7 +243,7 @@
       "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
-      "enabled": false,
+      "enabled": true,
       "two-space-line-break": false
     },
     "add-blockquote-indentation-on-paste": {
@@ -271,10 +271,10 @@
       "enabled": false
     }
   },
-  "lintOnSave": false,
+  "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
-  "suppressMessageWhenNoChange": false,
+  "suppressMessageWhenNoChange": true,
   "lintOnFileChange": false,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
