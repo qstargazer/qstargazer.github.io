@@ -2,8 +2,8 @@
 title: Test
 description:
 date: 2026-02-21T09:37:44+08:00
-image:
-math:
+image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg
+math: true
 license:
 comments: true
 draft: false
