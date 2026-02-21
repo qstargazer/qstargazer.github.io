@@ -30,7 +30,7 @@
     "expandedKeys": []
   },
   "content/post/test.md": {
-    "scroll": 19.56684739027566,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 18,
@@ -116,7 +116,7 @@
     ]
   },
   "archetypes/default.md": {
-    "scroll": 0,
+    "scroll": 7.758181818181819,
     "cursor": {
       "from": {
         "line": 17,
@@ -124,6 +124,48 @@
       },
       "to": {
         "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "kdkd.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/侯毅凡测试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 3
+      },
+      "to": {
+        "line": 19,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/分享数据.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 0
+      },
+      "to": {
+        "line": 22,
         "ch": 0
       }
     },

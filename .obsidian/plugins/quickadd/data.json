@@ -1,5 +1,36 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "b24ee001-43e0-4394-b86e-52078c92d782",
+      "name": "写博客",
+      "type": "Template",
+      "command": true,
+      "templatePath": "archetypes/default.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/post"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Append to the bottom of the file",
+      "setFileExistsBehavior": true
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
@@ -10,7 +41,7 @@
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
-  "enableRibbonIcon": false,
+  "enableRibbonIcon": true,
   "showCaptureNotification": true,
   "showInputCancellationNotification": false,
   "enableTemplatePropertyTypes": false,

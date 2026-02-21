@@ -11,5 +11,8 @@
   "obsidian-image-auto-upload-plugin",
   "obsidian-image-toolkit",
   "quickadd",
-  "obsidian-quiet-outline"
+  "obsidian-quiet-outline",
+  "calendar",
+  "obsidian-collapse-all-plugin",
+  "novel-word-count"
 ]
