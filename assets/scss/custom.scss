@@ -1,16 +1,16 @@
 /* assets/scss/custom.scss */
 
 // 1. 引入思源宋体（Noto Serif SC）
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/lxgw/lxgw-wenkai-screen-webfont@1.1.0/style.css');
 
 // 2. 引入思源黑体作为代码字体（可选，宋体不适合代码）
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Fira+Code:wght@400;500&display=swap');
+@import url('https://fonts.font.im/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap');
 
 // 3. 设置 CSS 变量（覆盖 Stack 主题默认变量）
 :root {
     --stack-font-body: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif CN', serif;
     --stack-font-title: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif CN', serif;
-    --stack-font-code: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace;
+    --stack-font-code: 'Hack', 'JetBrains Mono', 'Consolas', monospace;
 }
 
 // 4. 应用全局字体
