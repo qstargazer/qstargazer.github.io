@@ -16,21 +16,21 @@
     ]
   },
   "content/page/about/index.zh-cn.md": {
-    "scroll": 20.125,
+    "scroll": 16.702327096424376,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 7
+        "line": 19,
+        "ch": 0
       },
       "to": {
-        "line": 20,
-        "ch": 7
+        "line": 19,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "content/post/test.md": {
-    "scroll": 0,
+    "scroll": 18.283060071172425,
     "cursor": {
       "from": {
         "line": 12,
