@@ -30,7 +30,7 @@
     "expandedKeys": []
   },
   "content/post/test.md": {
-    "scroll": 0,
+    "scroll": 19.56684739027566,
     "cursor": {
       "from": {
         "line": 18,
@@ -100,19 +100,33 @@
     "expandedKeys": []
   },
   "content/post/大模型知识之一 —— 基础架构.md": {
-    "scroll": 5.573770491803279,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 3
+        "line": 17,
+        "ch": 6
       },
       "to": {
-        "line": 18,
-        "ch": 3
+        "line": 17,
+        "ch": 6
       }
     },
     "expandedKeys": [
       "item-1-0"
     ]
+  },
+  "archetypes/default.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

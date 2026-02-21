@@ -1,0 +1,22 @@
+---
+title: "{{NAME}}"
+description:
+date: "{{date}}T{{time:HH:mm:ssZ}}"
+image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg
+tags:
+categories:
+  - ""
+math: true
+license:
+hidden: false
+comments: true
+draft: true
+toc: true
+build:
+  list: always
+---
+# 参考文献
+
+---
+
+本文原载于 [巴巴变的博客](http://blog.bugxch.top)，遵循CC BY-NC-SA 4.0协议，复制请保留原文出处。
