@@ -30,14 +30,14 @@
     "expandedKeys": []
   },
   "content/post/test.md": {
-    "scroll": 7.531380753138075,
+    "scroll": 19.774443869632695,
     "cursor": {
       "from": {
-        "line": 23,
+        "line": 18,
         "ch": 0
       },
       "to": {
-        "line": 23,
+        "line": 18,
         "ch": 0
       }
     },
