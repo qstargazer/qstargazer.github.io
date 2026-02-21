@@ -214,7 +214,7 @@
     "expandedKeys": []
   },
   "content/post/test 2.md": {
-    "scroll": 3.0874785591766725,
+    "scroll": 1.0188679245283019,
     "cursor": {
       "from": {
         "line": 21,
@@ -223,6 +223,20 @@
       "to": {
         "line": 21,
         "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/_index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
