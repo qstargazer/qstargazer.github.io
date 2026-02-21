@@ -100,7 +100,7 @@
     "expandedKeys": []
   },
   "content/post/大模型知识之一 —— 基础架构.md": {
-    "scroll": 114.16923076923077,
+    "scroll": 3.090909090909091,
     "cursor": {
       "from": {
         "line": 222,
@@ -245,11 +245,25 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 18,
+        "line": 20,
+        "ch": 6
+      },
+      "to": {
+        "line": 20,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/2024年度总结.md": {
+    "scroll": 13.036020583190394,
+    "cursor": {
+      "from": {
+        "line": 19,
         "ch": 0
       },
       "to": {
-        "line": 18,
+        "line": 19,
         "ch": 0
       }
     },

@@ -11237,20 +11237,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 61,
+      "wordCount": 32,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.20333333333333334,
-      "characterCount": 372,
-      "nonWhitespaceCharacterCount": 330,
-      "newlineCount": 24,
-      "readingTimeInMinutes": 0.17343396226415095,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 85,
+      "nonWhitespaceCharacterCount": 74,
+      "newlineCount": 8,
+      "readingTimeInMinutes": 0.07109433962264151,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1771658184765,
-      "modifiedDate": 1771658184766,
-      "sizeInBytes": 442,
+      "modifiedDate": 1771658606943,
+      "sizeInBytes": 464,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -11258,6 +11258,75 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "2025年度总结",
+        "description": null,
+        "date": "2026-02-21",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/lailailaiki-lotus-939147_1920.jpg",
+        "tags": [
+          "年度总结"
+        ],
+        "categories": [
+          "生活"
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": false,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-21"
+      }
+    },
+    "content/post/2024年度总结.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 968,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 3.2266666666666666,
+      "characterCount": 1661,
+      "nonWhitespaceCharacterCount": 1475,
+      "newlineCount": 81,
+      "readingTimeInMinutes": 2.024679245283019,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1771658819111,
+      "modifiedDate": 1771658833433,
+      "sizeInBytes": 3957,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "2024年度总结",
+        "description": null,
+        "date": "2026-02-21",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/lailailaiki-lotus-939147_1920.jpg",
+        "tags": null,
+        "categories": [
+          ""
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": true,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-21"
       }
     }
   }

@@ -5,7 +5,6 @@ date: 2026-02-21
 image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/lailailaiki-lotus-939147_1920.jpg
 tags:
 categories:
-  - ""
 math: true
 license:
 hidden: false
