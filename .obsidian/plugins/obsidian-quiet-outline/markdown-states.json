@@ -28,5 +28,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "content/post/test.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 4
+      },
+      "to": {
+        "line": 14,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
   }
 }
