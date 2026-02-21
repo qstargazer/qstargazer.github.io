@@ -11,7 +11,7 @@ SortBy              = "default"
 
 [footer]
     since      = 2016
-    customText = ""
+    customText = "Nothing to talk about."
 
 [dateFormat]
     published   = ":date_full"

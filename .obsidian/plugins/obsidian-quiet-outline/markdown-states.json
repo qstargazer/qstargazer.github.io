@@ -16,7 +16,7 @@
     ]
   },
   "content/page/about/index.zh-cn.md": {
-    "scroll": 16.702327096424376,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 19,
@@ -30,15 +30,15 @@
     "expandedKeys": []
   },
   "content/post/test.md": {
-    "scroll": 18.283060071172425,
+    "scroll": 7.531380753138075,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 4
+        "line": 23,
+        "ch": 0
       },
       "to": {
-        "line": 12,
-        "ch": 4
+        "line": 23,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -80,6 +80,20 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/image-gallery/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
         "ch": 0
       }
     },
