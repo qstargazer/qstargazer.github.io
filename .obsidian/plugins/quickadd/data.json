@@ -5,7 +5,7 @@
       "name": "写博客",
       "type": "Template",
       "command": true,
-      "templatePath": "template/default.md",
+      "templatePath": "template/notes.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""

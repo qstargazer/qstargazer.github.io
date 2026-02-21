@@ -10846,7 +10846,7 @@
       "embedCount": 0,
       "aliases": [],
       "createdDate": 1771589079727,
-      "modifiedDate": 1771639758421,
+      "modifiedDate": 1771641024703,
       "sizeInBytes": 76,
       "sessionStart": {
         "noteCount": 0,
@@ -11012,52 +11012,6 @@
         "lastmod": "2026-02-21"
       }
     },
-    "template/default.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 32,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.10666666666666667,
-      "characterCount": 84,
-      "nonWhitespaceCharacterCount": 74,
-      "newlineCount": 7,
-      "readingTimeInMinutes": 0.07109433962264151,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1771639941732,
-      "modifiedDate": 1771640077215,
-      "sizeInBytes": 421,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      },
-      "frontmatter": {
-        "title": "{{NAME}}",
-        "description": null,
-        "date": "{{date}}T{{time:HH:mm:ssZ}}",
-        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg",
-        "tags": null,
-        "categories": [
-          ""
-        ],
-        "math": true,
-        "license": null,
-        "hidden": false,
-        "comments": true,
-        "draft": true,
-        "toc": true,
-        "build": {
-          "list": "always"
-        }
-      }
-    },
     "content/post/fkdjk.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -11157,6 +11111,52 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      }
+    },
+    "template/notes.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 32,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 84,
+      "nonWhitespaceCharacterCount": 74,
+      "newlineCount": 7,
+      "readingTimeInMinutes": 0.07109433962264151,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1771639941732,
+      "modifiedDate": 1771640077215,
+      "sizeInBytes": 421,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "{{NAME}}",
+        "description": null,
+        "date": "{{date}}T{{time:HH:mm:ssZ}}",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg",
+        "tags": null,
+        "categories": [
+          ""
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": true,
+        "toc": true,
+        "build": {
+          "list": "always"
+        }
       }
     }
   }
