@@ -1,6 +1,6 @@
 {
   "README.md": {
-    "scroll": 21.249411764705883,
+    "scroll": 19.25155925155925,
     "cursor": {
       "from": {
         "line": 0,
@@ -16,7 +16,7 @@
     ]
   },
   "content/page/about/index.zh-cn.md": {
-    "scroll": 17.47826086956522,
+    "scroll": 20.125,
     "cursor": {
       "from": {
         "line": 20,
@@ -30,15 +30,57 @@
     "expandedKeys": []
   },
   "content/post/test.md": {
+    "scroll": 18.798282553608022,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/page/search/index.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 8
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 14,
-        "ch": 8
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/page/links/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/page/archives/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
