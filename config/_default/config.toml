@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl      = "https://qstargazer.github.io"
+baseurl      = "https://blog.bugxch.top/"
 languageCode = "zh-cn"
 title        = "生活记录的自留地"
 
