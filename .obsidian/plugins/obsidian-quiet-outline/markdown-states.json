@@ -212,5 +212,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "content/post/test 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 3
+      },
+      "to": {
+        "line": 21,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
   }
 }

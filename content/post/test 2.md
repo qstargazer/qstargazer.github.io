@@ -1,7 +1,7 @@
 ---
-title: "{{NAME}}"
+title: "test 2"
 description:
-date: 
+date: 2026-02-21
 image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg
 tags:
 categories:
@@ -14,8 +14,12 @@ draft: true
 toc: true
 build:
   list: always
+lastmod: 2026-02-21
 ---
 # 参考文献
+
+
+分享分
 
 ---
 
