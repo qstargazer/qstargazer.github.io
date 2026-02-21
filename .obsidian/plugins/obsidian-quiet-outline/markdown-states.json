@@ -1,0 +1,32 @@
+{
+  "README.md": {
+    "scroll": 21.249411764705883,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "content/page/about/index.zh-cn.md": {
+    "scroll": 17.47826086956522,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 7
+      },
+      "to": {
+        "line": 20,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  }
+}

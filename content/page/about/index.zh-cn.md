@@ -18,6 +18,8 @@ menu:
 
 # 关于网站
 
+我之前的博客在
+
 > 互联网上的自留地，致力于用中文将关心的技术问题讲清楚。写作就是思考的过程，参考[费曼学习法](https://baike.baidu.com/item/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/50895393)，利用写作完成知识输出，可以加深对知识的理解。
 
 - 2024年1月1日，网站主题切换成 [Stack | Hugo Themes](https://themes.gohugo.io/themes/hugo-theme-stack/)，并使用github actions 自动编译和部署

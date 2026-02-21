@@ -5,5 +5,11 @@
   "obsidian-linter",
   "obsidian-latex-suite",
   "notebook-navigator",
-  "floating-toc"
+  "floating-toc",
+  "dataview",
+  "easy-typing-obsidian",
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-image-toolkit",
+  "quickadd",
+  "obsidian-quiet-outline"
 ]
