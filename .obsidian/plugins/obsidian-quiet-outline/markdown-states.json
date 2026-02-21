@@ -116,7 +116,7 @@
     ]
   },
   "archetypes/default.md": {
-    "scroll": 7.758181818181819,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 17,
@@ -158,6 +158,34 @@
     "expandedKeys": []
   },
   "content/post/分享数据.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 6
+      },
+      "to": {
+        "line": 17,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "template/default.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 0
+      },
+      "to": {
+        "line": 22,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/fkdjk.md": {
     "scroll": 0,
     "cursor": {
       "from": {

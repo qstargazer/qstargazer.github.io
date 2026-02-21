@@ -5,7 +5,7 @@
       "name": "写博客",
       "type": "Template",
       "command": true,
-      "templatePath": "archetypes/default.md",
+      "templatePath": "template/default.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""

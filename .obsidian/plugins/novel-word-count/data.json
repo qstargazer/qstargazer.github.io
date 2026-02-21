@@ -68,52 +68,6 @@
     "debugMode": false
   },
   "cachedCounts": {
-    "archetypes/default.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 32,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.10666666666666667,
-      "characterCount": 84,
-      "nonWhitespaceCharacterCount": 74,
-      "newlineCount": 7,
-      "readingTimeInMinutes": 0.07109433962264151,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1771639941732,
-      "modifiedDate": 1771640077215,
-      "sizeInBytes": 421,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.10666666666666667,
-        "wordCount": 32,
-        "characterCount": 84,
-        "nonWhitespaceCharacterCount": 74,
-        "newlineCount": 7
-      },
-      "frontmatter": {
-        "title": "{{NAME}}",
-        "description": null,
-        "date": "{{date}}T{{time:HH:mm:ssZ}}",
-        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg",
-        "tags": null,
-        "categories": [
-          ""
-        ],
-        "math": true,
-        "license": null,
-        "hidden": false,
-        "comments": true,
-        "draft": true,
-        "toc": true,
-        "build": {
-          "list": "always"
-        }
-      }
-    },
     "resources/_gen/assets/scss/style.scss_77b10c8e87ff110a62c52933fe3f7f11.json": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -11015,20 +10969,187 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 58,
+      "wordCount": 32,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.19333333333333333,
-      "characterCount": 353,
-      "nonWhitespaceCharacterCount": 313,
-      "newlineCount": 23,
-      "readingTimeInMinutes": 0.16211320754716982,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 84,
+      "nonWhitespaceCharacterCount": 74,
+      "newlineCount": 7,
+      "readingTimeInMinutes": 0.07109433962264151,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1771640781389,
-      "modifiedDate": 1771640781391,
-      "sizeInBytes": 423,
+      "modifiedDate": 1771640953542,
+      "sizeInBytes": 440,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "分享数据",
+        "description": null,
+        "date": "2026-02-21T10:26:21+08:00",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg",
+        "tags": null,
+        "categories": [
+          ""
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-21"
+      }
+    },
+    "template/default.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 32,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 84,
+      "nonWhitespaceCharacterCount": 74,
+      "newlineCount": 7,
+      "readingTimeInMinutes": 0.07109433962264151,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1771639941732,
+      "modifiedDate": 1771640077215,
+      "sizeInBytes": 421,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "{{NAME}}",
+        "description": null,
+        "date": "{{date}}T{{time:HH:mm:ssZ}}",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg",
+        "tags": null,
+        "categories": [
+          ""
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": true,
+        "toc": true,
+        "build": {
+          "list": "always"
+        }
+      }
+    },
+    "content/post/fkdjk.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 32,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 84,
+      "nonWhitespaceCharacterCount": 74,
+      "newlineCount": 7,
+      "readingTimeInMinutes": 0.07109433962264151,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1771640995627,
+      "modifiedDate": 1771641002657,
+      "sizeInBytes": 433,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "fkdjk",
+        "description": null,
+        "date": "2026-02-21T10:29:55+08:00",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260221095141469.jpg",
+        "tags": null,
+        "categories": [
+          ""
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-21"
+      }
+    },
+    "public/p/fkdjk/index.html": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1771641015159,
+      "modifiedDate": 1771641015159,
+      "sizeInBytes": 20263,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "public/p/分享数据/index.html": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1771641015159,
+      "modifiedDate": 1771641015159,
+      "sizeInBytes": 20408,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
