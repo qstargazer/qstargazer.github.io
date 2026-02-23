@@ -21,12 +21,11 @@ lastmod: 2026-02-23
 
 本月初心里痒痒拿下威联通TS-216，某东价格1199，为什么会买这个呢？我的脑回路也比较清奇，我在之前给我的R2S计划启用openclash，但是发现那个固件的插件有问题，于是在网上搜索了一番，找到了[R2S/R4S 设备 | 易有云 文档中心](https://doc.linkease.com/zh/guide/istoreos/install_r2s.html)的固件，发现安装之后的界面还挺好看，openclash也顺利用起来了（虽然后面是从[Tags · vernesong/OpenClash · GitHub](https://github.com/vernesong/OpenClash/tags)页面自己下载手动安装的）。
 
-![image.png](https://pic.imgdb.cn/item/63a02655b1fccdcd36738d47.png)
-
+![](https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260223092139959.png?imageSlim)
 
 细看上图里面有个易有云的存储服务，顺手google 下什么是易有云，发现就是个NAS。我在某宝上搜了，发现盒子比较简陋，可以安装一块硬盘，非常便宜，就下图的样子，看起来玩得花样比较多。联想之前华为发布家用NAS，加上我的时光相册不能上传比较大的图片和视频，让我觉得云盘备份瞬间不香了，要不整个家用NAS玩玩？
 
-![image.png](https://pic.imgdb.cn/item/63a0265db1fccdcd36739a0a.png)
+![](https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260223092249941.png?imageSlim)
 
 
 于是，我又在[最新NAS存储新品推荐\_什么值得买](https://post.smzdm.com/fenlei/nascunchufuwuqi/)下面泡了一段时间，发现NAS用的最多的就是群晖和威联通，鉴于威联通颜值能打，而且看到论坛里面的讨论这么全面，将来入手遇到问题也能方便找到解决方案，最终放弃了某宝非常便宜的方案，买了入门款的威联通TS216，先把这个玩熟，等过几年用的差不多了，升级的时候再换更高级的吧。
@@ -38,22 +37,18 @@ lastmod: 2026-02-23
 ## 安装系统
 我刚开始安装的是西数红盘4T plus，后来发现同步照片的时候NAS炒豆子的声音太大了，所以后来又买了两条m.2的闪迪500G固态硬盘，2个硬盘600大洋，所以整个一套下来应该花了3400大洋（还是蛮肉疼的）。
 
-![image.png](https://pic.imgdb.cn/item/63a02668b1fccdcd3673a92d.png)
+![](https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260223092320133.png?imageSlim)
+
 
 
 安装系统可以参考[NAS无法拒绝SSD的N个理由！这些厉害玩法，你知道吗？](https://post.smzdm.com/p/alldezle/)，选择RAID 1阵列。为了搞清楚安装里面各种名词，我也看了很多文章，终于搞清楚了存储池、静态卷、厚卷、精简卷和RAID、Qtier这些名词的含义，当时本来计划看说明书的，奈何500页太长了，而且也发现了威联通居然还有个[QNAPedia](https://wiki.qnap.com/wiki/Main_Page)网站，全英文你能信？下图是我当前存储池的状态
 
-![image.png](https://pic.imgdb.cn/item/63a02672b1fccdcd3673b8b2.png)
+![](https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260223092338118.png?imageSlim)
 
 ## 远程访问
 家用NAS需要能在外部访问才能发挥它最大的威力，这一节从下面的几个步骤一步步做介绍，我主要参考了[威联通 TS-451D外网高速访问：公网IP、DSM主机、端口映射、DDNS动态域名设置\_NAS存储\_什么值得买](https://post.smzdm.com/p/a0dq84nr/)，基本上照着配置即可。需要注意两点：
-1. 外网IP申请下来之后，使用中国电信的网络app设置DMZ主机时，需要输入的是**威联通连接的那台路由器在光猫中的IP地址**。这里要特别提醒使用软路由的朋友，我的网络拓扑是入户光猫 -> r2s软路由 -> 无线硬路由（有线桥接模式）-> 威联通，所以我要输入的就是r2s的软路由在入户光猫中分配的ip地址，这个可以在中国电信网络关键app首页最下面的在线设备中看到。
-    ![image.png](https://pic.imgdb.cn/item/63a02640b1fccdcd36736c3f.png)
-
-2. 我的r2s刷的是openwrt系统，这个系统的内部端口转发可以参考[OpenWRT 设置 端口转发 小白教程 - 彧繎博客](https://opssh.cn/luyou/167.html)，我的端口转发设置长这样
-
-	 ![image.png](https://pic.imgdb.cn/item/63a02682b1fccdcd3673d099.png)
-
+1. 外网IP申请下来之后，使用中国电信的网络app设置DMZ主机时，需要输入的是**威联通连接的那台路由器在光猫中的IP地址**。这里要特别提醒使用软路由的朋友，我的网络拓扑是入户光猫 -> r2s软路由 -> 无线硬路由（有线桥接模式）-> 威联通，所以我要输入的就是r2s的软路由在入户光猫中分配的ip地址，这个可以在中国电信网络关键app首页最下面的在线设备中看到![](https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260223092407509.png?imageSlim)
+2. 我的r2s刷的是openwrt系统，这个系统的内部端口转发可以参考[OpenWRT 设置 端口转发 小白教程 - 彧繎博客](https://opssh.cn/luyou/167.html)，我的端口转发设置长这样![](https://image-1258996033.cos.ap-shanghai.myqcloud.com/20260223092433651.png?imageSlim)
  3. 如果没有外网IP，可以使用威联通自带的myCloud和DDNS服务，但是速度比较慢，设置系统查看状态应该可以，但是下载上传文件就勉为其难了。更好的方案是使用有偿的服务，比如上面易有云就提供内网穿透服务，最高到8M速度，我后来没有用。
 
 ### 域名映射
