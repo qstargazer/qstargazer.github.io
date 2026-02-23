@@ -200,7 +200,7 @@
     "expandedKeys": []
   },
   "template/notes.md": {
-    "scroll": 2.478559176672384,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 18,
@@ -363,6 +363,20 @@
       "to": {
         "line": 17,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/测试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 12
+      },
+      "to": {
+        "line": 18,
+        "ch": 12
       }
     },
     "expandedKeys": []

@@ -1,7 +1,7 @@
 ---
 title: "{{NAME}}"
 description:
-date: "{{date}}"
+date:
 image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake
 tags:
 categories:
