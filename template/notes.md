@@ -5,7 +5,6 @@ date: 2026-02-21
 image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake
 tags:
 categories:
-  - ""
 math: true
 license:
 hidden: false
