@@ -200,7 +200,7 @@
     "expandedKeys": []
   },
   "template/notes.md": {
-    "scroll": 0,
+    "scroll": 2.478559176672384,
     "cursor": {
       "from": {
         "line": 18,
@@ -326,6 +326,34 @@
     "expandedKeys": []
   },
   "content/post/fjd.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/fkd.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "content/post/kfdjkfj.md": {
     "scroll": 0,
     "cursor": {
       "from": {

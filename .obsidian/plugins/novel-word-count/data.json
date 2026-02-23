@@ -84,8 +84,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1771639941732,
-      "modifiedDate": 1771842510274,
-      "sizeInBytes": 421,
+      "modifiedDate": 1771843004246,
+      "sizeInBytes": 402,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.10666666666666667,
@@ -97,7 +97,7 @@
       "frontmatter": {
         "title": "{{NAME}}",
         "description": null,
-        "date": "{{date}}T{{time:HH:mm:ssZ}}",
+        "date": "{{date}}",
         "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
         "tags": null,
         "categories": null,
