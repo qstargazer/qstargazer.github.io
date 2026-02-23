@@ -1,7 +1,7 @@
 ---
 title: "{{NAME}}"
 description:
-date: 2026-02-21
+date: "{{date}}T{{time:HH:mm:ssZ}}"
 image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake
 tags:
 categories:
@@ -13,7 +13,7 @@ draft: true
 toc: true
 build:
   list: always
-lastmod: 2026-02-21
+lastmod: 2026-02-23
 ---
 # 参考文献
 
