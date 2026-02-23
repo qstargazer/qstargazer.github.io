@@ -11740,20 +11740,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 61,
+      "wordCount": 2115,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.20333333333333334,
-      "characterCount": 346,
-      "nonWhitespaceCharacterCount": 304,
-      "newlineCount": 24,
-      "readingTimeInMinutes": 0.17343396226415095,
+      "pageCount": 7.05,
+      "characterCount": 4196,
+      "nonWhitespaceCharacterCount": 4046,
+      "newlineCount": 74,
+      "readingTimeInMinutes": 4.487169811320754,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1771807290472,
-      "modifiedDate": 1771807290474,
-      "sizeInBytes": 416,
+      "modifiedDate": 1771807351971,
+      "sizeInBytes": 8749,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -11761,6 +11761,26 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "NAS折腾小计",
+        "description": null,
+        "date": "2026-02-21",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
+        "tags": null,
+        "categories": [
+          ""
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-23"
       }
     }
   }
