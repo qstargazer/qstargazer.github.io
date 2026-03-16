@@ -1,5 +1,5 @@
 ---
-title: NAS折腾小计
+title: NAS折腾小记
 description:
 date: 2026-02-21
 image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake
