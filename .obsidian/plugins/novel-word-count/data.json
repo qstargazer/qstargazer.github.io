@@ -828,50 +828,6 @@
         "comments": false
       }
     },
-    "content/page/search/index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 2,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1771588073334,
-      "modifiedDate": 1771598361041,
-      "sizeInBytes": 175,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 2,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "title": "搜索",
-        "slug": "search",
-        "layout": "search",
-        "outputs": [
-          "html",
-          "json"
-        ],
-        "menu": {
-          "main": {
-            "weight": 5,
-            "params": {
-              "icon": "search"
-            }
-          }
-        }
-      }
-    },
     "content/page/about/index.zh-cn.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6229,7 +6185,7 @@
       "embedCount": 0,
       "aliases": [],
       "createdDate": 1771589079657,
-      "modifiedDate": 1774050955124,
+      "modifiedDate": 1774051109327,
       "sizeInBytes": 3243,
       "sessionStart": {
         "noteCount": 0,
@@ -12188,16 +12144,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0,
-      "characterCount": 0,
+      "characterCount": 2,
       "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
+      "newlineCount": 2,
       "readingTimeInMinutes": 0,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1774050757307,
-      "modifiedDate": 1774050945436,
-      "sizeInBytes": 61,
+      "modifiedDate": 1774051098026,
+      "sizeInBytes": 69,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -12209,7 +12165,34 @@
       "frontmatter": {
         "title": "分类",
         "slug": "categories",
-        "layout": "list"
+        "layout": "categories"
+      }
+    },
+    "content/page/search/index.zh-cn.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 17,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 171,
+      "nonWhitespaceCharacterCount": 98,
+      "newlineCount": 14,
+      "readingTimeInMinutes": 0.060603773584905665,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1771588073334,
+      "modifiedDate": 1774051528054,
+      "sizeInBytes": 175,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }
