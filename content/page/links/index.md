@@ -4,7 +4,7 @@ links:
   - title: GitHub
     description: GitHub is the world's largest software development platform.
     website: https://github.com
-    image: https://pic.imgdb.cn/item/65927ef2c458853aefd7b5ce.jpg
+    image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/link0.jpg
 menu:
     main:
         weight: 3
@@ -12,8 +12,10 @@ menu:
             icon: link
 
 comments: false
+date: 2026-02-20
+lastmod: 2026-03-21
 ---
-![](https://pic.imgdb.cn/item/626a76df239250f7c590771e.jpg)
+![link.jpg](https://image-1258996033.cos.ap-shanghai.myqcloud.com/link.jpg?imageSlim)
 
 ---
 

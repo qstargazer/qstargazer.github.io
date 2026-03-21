@@ -1,20 +1,21 @@
 ---
 title: 关于
 description: 简短的自我介绍
-date: '2019-02-28'
+date: 2026-02-20
 aliases:
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: 2026-03-21
 menu:
     main:
         weight: -1
         params:
             icon: user
 ---
-![](https://pic.imgdb.cn/item/6280a60a0947543129e96531.jpg)
+![about1.jpg](https://image-1258996033.cos.ap-shanghai.myqcloud.com/about1.jpg?imageSlim)
+
 
 # 关于网站
 
