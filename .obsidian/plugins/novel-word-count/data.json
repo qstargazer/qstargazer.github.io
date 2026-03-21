@@ -71,28 +71,46 @@
     "template/notes.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 32,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 84,
+      "nonWhitespaceCharacterCount": 74,
+      "newlineCount": 7,
+      "readingTimeInMinutes": 0.07109433962264151,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771639941732,
       "modifiedDate": 1771843223233,
       "sizeInBytes": 391,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.10666666666666667,
+        "wordCount": 32,
+        "characterCount": 84,
+        "nonWhitespaceCharacterCount": 74,
+        "newlineCount": 7
+      },
+      "frontmatter": {
+        "title": "{{NAME}}",
+        "description": null,
+        "date": null,
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
+        "tags": null,
+        "categories": null,
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": true,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-23"
       }
     },
     "resources/_gen/assets/scss/style.scss_77b10c8e87ff110a62c52933fe3f7f11.json": {
@@ -5403,7 +5421,7 @@
       "embedCount": 0,
       "aliases": [],
       "createdDate": 1771589079657,
-      "modifiedDate": 1774051558415,
+      "modifiedDate": 1774100010129,
       "sizeInBytes": 3243,
       "sessionStart": {
         "noteCount": 0,
@@ -10898,55 +10916,55 @@
     "README.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 377,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 1.2566666666666666,
+      "characterCount": 3083,
+      "nonWhitespaceCharacterCount": 2627,
+      "newlineCount": 48,
+      "readingTimeInMinutes": 1.4226415094339622,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073317,
       "modifiedDate": 1771588073327,
       "sizeInBytes": 3083,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 1.2566666666666666,
+        "wordCount": 377,
+        "characterCount": 3083,
+        "nonWhitespaceCharacterCount": 2627,
+        "newlineCount": 48
       }
     },
     "LICENSE": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 169,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.5633333333333334,
+      "characterCount": 1087,
+      "nonWhitespaceCharacterCount": 893,
+      "newlineCount": 22,
+      "readingTimeInMinutes": 0.6377358490566037,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073317,
       "modifiedDate": 1771588073317,
       "sizeInBytes": 1087,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.5633333333333334,
+        "wordCount": 169,
+        "characterCount": 1087,
+        "nonWhitespaceCharacterCount": 893,
+        "newlineCount": 22
       }
     },
     "go.sum": {
@@ -11006,82 +11024,129 @@
     "content/post/大模型知识之一 —— 基础架构.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 1436,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 4.786666666666667,
+      "characterCount": 5452,
+      "nonWhitespaceCharacterCount": 4771,
+      "newlineCount": 207,
+      "readingTimeInMinutes": 3.512264150943396,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771596069932,
       "modifiedDate": 1771659071493,
       "sizeInBytes": 8064,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 4.786666666666667,
+        "wordCount": 1436,
+        "characterCount": 5452,
+        "nonWhitespaceCharacterCount": 4771,
+        "newlineCount": 207
+      },
+      "frontmatter": {
+        "title": "大模型知识之一——基础架构",
+        "description": null,
+        "date": "2026-02-20",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
+        "tags": [
+          "llm"
+        ],
+        "categories": [
+          "技术"
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": false,
+        "lastmod": "2026-02-21"
       }
     },
     "content/post/两次短暂苏州之行.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 959,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 3.1966666666666668,
+      "characterCount": 2346,
+      "nonWhitespaceCharacterCount": 2215,
+      "newlineCount": 62,
+      "readingTimeInMinutes": 1.9623396226415095,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1774050683779,
       "modifiedDate": 1774050683779,
       "sizeInBytes": 4729,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 3.1966666666666668,
+        "wordCount": 959,
+        "characterCount": 2346,
+        "nonWhitespaceCharacterCount": 2215,
+        "newlineCount": 62
+      },
+      "frontmatter": {
+        "title": "两次短暂苏州之行",
+        "description": "苏州游记",
+        "date": "2024-06-22",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/DEFG6853.JPG",
+        "tags": "苏州",
+        "categories": [
+          "游记",
+          "生活"
+        ],
+        "math": false,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": false,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-23"
       }
     },
     "content/post/shortcodes/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 112,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 1090,
+      "nonWhitespaceCharacterCount": 910,
+      "newlineCount": 33,
+      "readingTimeInMinutes": 0.4226415094339623,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073339,
       "modifiedDate": 1771639199475,
       "sizeInBytes": 1241,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.37333333333333335,
+        "wordCount": 112,
+        "characterCount": 1090,
+        "nonWhitespaceCharacterCount": 910,
+        "newlineCount": 33
+      },
+      "frontmatter": {
+        "title": "Shortcodes",
+        "description": "Useful shortcodes that can be used in Markdown",
+        "date": "2023-08-25 00:00:00+0000",
+        "image": "cover.jpg",
+        "draft": true
       }
     },
     "content/post/shortcodes/cover.jpg": {
@@ -11114,109 +11179,159 @@
     "content/post/nas折腾小记.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 2115,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 7.05,
+      "characterCount": 4390,
+      "nonWhitespaceCharacterCount": 4166,
+      "newlineCount": 78,
+      "readingTimeInMinutes": 4.487169811320754,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1774050683778,
       "modifiedDate": 1774050683778,
       "sizeInBytes": 8966,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 7.05,
+        "wordCount": 2115,
+        "characterCount": 4390,
+        "nonWhitespaceCharacterCount": 4166,
+        "newlineCount": 78
+      },
+      "frontmatter": {
+        "title": "NAS折腾小记",
+        "description": null,
+        "date": "2026-02-21",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
+        "tags": "生活",
+        "categories": [
+          "nas"
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-23"
       }
     },
     "content/post/math-typesetting/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 90,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.3,
+      "characterCount": 824,
+      "nonWhitespaceCharacterCount": 692,
+      "newlineCount": 35,
+      "readingTimeInMinutes": 0.33962264150943394,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073338,
       "modifiedDate": 1771639212500,
       "sizeInBytes": 955,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.3,
+        "wordCount": 90,
+        "characterCount": 824,
+        "nonWhitespaceCharacterCount": 692,
+        "newlineCount": 35
+      },
+      "frontmatter": {
+        "title": "Math Typesetting",
+        "description": "Math typesetting using KaTeX",
+        "date": "2023-08-24 00:00:00+0000",
+        "math": true,
+        "draft": true
       }
     },
     "content/post/markdown-syntax/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 525,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 1.75,
+      "characterCount": 5121,
+      "nonWhitespaceCharacterCount": 3893,
+      "newlineCount": 143,
+      "readingTimeInMinutes": 1.9811320754716981,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073337,
       "modifiedDate": 1771639224272,
       "sizeInBytes": 5380,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 1.75,
+        "wordCount": 525,
+        "characterCount": 5121,
+        "nonWhitespaceCharacterCount": 3893,
+        "newlineCount": 143
+      },
+      "frontmatter": {
+        "title": "Markdown Syntax Guide",
+        "date": "2023-09-07",
+        "description": "Sample article showcasing basic Markdown syntax and formatting for HTML elements.",
+        "tags": [
+          "markdown",
+          "css",
+          "html",
+          "themes"
+        ],
+        "categories": [
+          "themes",
+          "syntax"
+        ],
+        "draft": true
       }
     },
     "content/post/image-gallery/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 77,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.25666666666666665,
+      "characterCount": 655,
+      "nonWhitespaceCharacterCount": 567,
+      "newlineCount": 17,
+      "readingTimeInMinutes": 0.29056603773584905,
       "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
+      "embedCount": 2,
+      "aliases": null,
       "createdDate": 1771588073337,
       "modifiedDate": 1771639399542,
       "sizeInBytes": 810,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.25666666666666665,
+        "wordCount": 77,
+        "characterCount": 655,
+        "nonWhitespaceCharacterCount": 567,
+        "newlineCount": 17
+      },
+      "frontmatter": {
+        "title": "Image gallery",
+        "description": "Create beautiful interactive image gallery using Markdown",
+        "date": "2023-08-26 00:00:00+0000",
+        "image": "2.jpg",
+        "draft": true
       }
     },
     "content/post/image-gallery/1.jpg": {
@@ -11276,55 +11391,91 @@
     "content/post/2025年度总结.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 2235,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 7.45,
+      "characterCount": 3652,
+      "nonWhitespaceCharacterCount": 3481,
+      "newlineCount": 104,
+      "readingTimeInMinutes": 4.650905660377359,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771658184765,
       "modifiedDate": 1771756579820,
       "sizeInBytes": 8622,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 7.45,
+        "wordCount": 2235,
+        "characterCount": 3652,
+        "nonWhitespaceCharacterCount": 3481,
+        "newlineCount": 104
+      },
+      "frontmatter": {
+        "title": "2025年度总结",
+        "description": null,
+        "date": "2026-02-21",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/lailailaiki-lotus-939147_1920.jpg",
+        "tags": [
+          "年度总结"
+        ],
+        "categories": [
+          "生活"
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-22"
       }
     },
     "content/post/hello-world/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 41,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.13666666666666666,
+      "characterCount": 417,
+      "nonWhitespaceCharacterCount": 363,
+      "newlineCount": 9,
+      "readingTimeInMinutes": 0.15471698113207547,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073336,
       "modifiedDate": 1771639139062,
       "sizeInBytes": 632,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.13666666666666666,
+        "wordCount": 41,
+        "characterCount": 417,
+        "nonWhitespaceCharacterCount": 363,
+        "newlineCount": 9
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "description": "Welcome to Hugo Theme Stack",
+        "slug": "hello-world",
+        "draft": true,
+        "date": "2022-03-06 00:00:00+0000",
+        "image": "cover.jpg",
+        "categories": [
+          "Example Category"
+        ],
+        "tags": [
+          "Example Tag"
+        ]
       }
     },
     "content/post/hello-world/cover.jpg": {
@@ -11357,109 +11508,181 @@
     "content/post/2024年度总结.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 960,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 3.2,
+      "characterCount": 1679,
+      "nonWhitespaceCharacterCount": 1429,
+      "newlineCount": 75,
+      "readingTimeInMinutes": 2.003358490566038,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1774050683777,
       "modifiedDate": 1774050683778,
       "sizeInBytes": 4002,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 3.2,
+        "wordCount": 960,
+        "characterCount": 1679,
+        "nonWhitespaceCharacterCount": 1429,
+        "newlineCount": 75
+      },
+      "frontmatter": {
+        "title": "2024年度总结",
+        "description": null,
+        "date": "2024-12-29",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/lailailaiki-lotus-939147_1920.jpg",
+        "tags": [
+          "年度总结"
+        ],
+        "categories": [
+          "生活"
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": false,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-02-21"
       }
     },
     "content/_index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
+      "noteCount": 1,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
+      "wordGoal": null,
       "pageCount": 0,
-      "characterCount": 0,
+      "characterCount": 1,
       "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
+      "newlineCount": 2,
       "readingTimeInMinutes": 0,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073332,
       "modifiedDate": 1771642607476,
       "sizeInBytes": 102,
       "sessionStart": {
-        "noteCount": 0,
+        "noteCount": 1,
         "pageCount": 0,
         "wordCount": 0,
-        "characterCount": 0,
+        "characterCount": 1,
         "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "menu": {
+          "main": {
+            "name": "文章",
+            "weight": 1,
+            "params": {
+              "icon": "home"
+            }
+          }
+        }
       }
     },
     "content/page/search/index.zh-cn.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
+      "noteCount": 1,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
+      "wordGoal": null,
       "pageCount": 0,
-      "characterCount": 0,
+      "characterCount": 2,
       "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
+      "newlineCount": 2,
       "readingTimeInMinutes": 0,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073334,
       "modifiedDate": 1774051992989,
       "sizeInBytes": 175,
       "sessionStart": {
-        "noteCount": 0,
+        "noteCount": 1,
         "pageCount": 0,
         "wordCount": 0,
-        "characterCount": 0,
+        "characterCount": 2,
         "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "title": "搜索",
+        "slug": "search",
+        "layout": "search",
+        "outputs": [
+          "html",
+          "json"
+        ],
+        "menu": {
+          "main": {
+            "weight": 5,
+            "params": {
+              "icon": "search"
+            }
+          }
+        }
       }
     },
     "content/page/links/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 469,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 1.5633333333333332,
+      "characterCount": 1893,
+      "nonWhitespaceCharacterCount": 1777,
+      "newlineCount": 35,
+      "readingTimeInMinutes": 1.0586037735849056,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073334,
-      "modifiedDate": 1771637015126,
-      "sizeInBytes": 3054,
+      "modifiedDate": 1774100264799,
+      "sizeInBytes": 3126,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 1.5633333333333332,
+        "wordCount": 469,
+        "characterCount": 1867,
+        "nonWhitespaceCharacterCount": 1751,
+        "newlineCount": 35
+      },
+      "frontmatter": {
+        "title": "收集",
+        "links": [
+          {
+            "title": "GitHub",
+            "description": "GitHub is the world's largest software development platform.",
+            "website": "https://github.com",
+            "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/link0.jpg"
+          }
+        ],
+        "menu": {
+          "main": {
+            "weight": 3,
+            "params": {
+              "icon": "link"
+            }
+          }
+        },
+        "comments": false,
+        "date": "2026-02-20",
+        "lastmod": "2026-03-21"
       }
     },
     "content/page/categories/index.md": {
@@ -11497,55 +11720,93 @@
     "content/page/archives/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
+      "noteCount": 1,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
+      "wordGoal": null,
       "pageCount": 0,
-      "characterCount": 0,
+      "characterCount": 2,
       "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
+      "newlineCount": 2,
       "readingTimeInMinutes": 0,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771588073333,
       "modifiedDate": 1771591587431,
       "sizeInBytes": 165,
       "sessionStart": {
-        "noteCount": 0,
+        "noteCount": 1,
         "pageCount": 0,
         "wordCount": 0,
-        "characterCount": 0,
+        "characterCount": 2,
         "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "title": "归档",
+        "date": "2022-03-06",
+        "layout": "archives",
+        "slug": "archives",
+        "menu": {
+          "main": {
+            "weight": 2,
+            "params": {
+              "icon": "archives"
+            }
+          }
+        }
       }
     },
     "content/page/about/index.zh-cn.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 222,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.74,
+      "characterCount": 687,
+      "nonWhitespaceCharacterCount": 648,
+      "newlineCount": 23,
+      "readingTimeInMinutes": 0.4901132075471698,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": [
+        "about-us",
+        "about-hugo",
+        "contact"
+      ],
       "createdDate": 1771591480293,
-      "modifiedDate": 1771638943763,
-      "sizeInBytes": 1327,
+      "modifiedDate": 1774100307785,
+      "sizeInBytes": 1354,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.74,
+        "wordCount": 222,
+        "characterCount": 656,
+        "nonWhitespaceCharacterCount": 618,
+        "newlineCount": 22
+      },
+      "frontmatter": {
+        "title": "关于",
+        "description": "简短的自我介绍",
+        "date": "2026-02-20",
+        "aliases": [
+          "about-us",
+          "about-hugo",
+          "contact"
+        ],
+        "license": "CC BY-NC-ND",
+        "lastmod": "2026-03-21",
+        "menu": {
+          "main": {
+            "weight": -1,
+            "params": {
+              "icon": "user"
+            }
+          }
+        }
       }
     },
     "config/_default/related.toml": {
@@ -11767,28 +12028,28 @@
     "CNAME": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 1,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "wordGoal": null,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 15,
+      "nonWhitespaceCharacterCount": 15,
+      "newlineCount": 1,
+      "readingTimeInMinutes": 0.0037735849056603774,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1771643142977,
       "modifiedDate": 1771643142977,
       "sizeInBytes": 15,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.0033333333333333335,
+        "wordCount": 1,
+        "characterCount": 15,
+        "nonWhitespaceCharacterCount": 15,
+        "newlineCount": 1
       }
     },
     "assets/scss/custom.scss": {
