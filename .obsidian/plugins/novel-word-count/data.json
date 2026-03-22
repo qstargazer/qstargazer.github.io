@@ -12074,51 +12074,6 @@
         "newlineCount": 0
       }
     },
-    "content/post/测试是否正常.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 32,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.10666666666666667,
-      "characterCount": 84,
-      "nonWhitespaceCharacterCount": 74,
-      "newlineCount": 7,
-      "readingTimeInMinutes": 0.07109433962264151,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1774176871865,
-      "modifiedDate": 1774175797135,
-      "sizeInBytes": 411,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      },
-      "frontmatter": {
-        "title": "测试是否正常",
-        "description": null,
-        "date": "2026-03-22",
-        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
-        "tags": null,
-        "categories": null,
-        "math": true,
-        "license": null,
-        "hidden": false,
-        "comments": true,
-        "draft": false,
-        "toc": true,
-        "build": {
-          "list": "always"
-        },
-        "lastmod": "2026-03-22"
-      }
-    },
     "content/post/两次短暂苏州之行.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -12263,20 +12218,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 61,
+      "wordCount": 2353,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.20333333333333334,
-      "characterCount": 327,
-      "nonWhitespaceCharacterCount": 290,
-      "newlineCount": 23,
-      "readingTimeInMinutes": 0.1698867924528302,
+      "pageCount": 7.843333333333334,
+      "characterCount": 3512,
+      "nonWhitespaceCharacterCount": 3288,
+      "newlineCount": 116,
+      "readingTimeInMinutes": 4.94011320754717,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1774177545422,
-      "modifiedDate": 1774177545423,
-      "sizeInBytes": 401,
+      "modifiedDate": 1774177636419,
+      "sizeInBytes": 8680,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -12284,6 +12239,29 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "驾考经验总结",
+        "description": null,
+        "date": "2026-03-22",
+        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
+        "tags": [
+          "驾考",
+          "总结"
+        ],
+        "categories": [
+          "生活"
+        ],
+        "math": true,
+        "license": null,
+        "hidden": false,
+        "comments": true,
+        "draft": false,
+        "toc": true,
+        "build": {
+          "list": "always"
+        },
+        "lastmod": "2026-03-22"
       }
     }
   }
