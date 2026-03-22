@@ -5448,7 +5448,7 @@
       "embedCount": 0,
       "aliases": [],
       "createdDate": 1771589079657,
-      "modifiedDate": 1774175726621,
+      "modifiedDate": 1774176825203,
       "sizeInBytes": 3243,
       "sessionStart": {
         "noteCount": 0,
@@ -11207,20 +11207,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 525,
+      "wordCount": 541,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.75,
-      "characterCount": 5121,
+      "pageCount": 1.8033333333333332,
+      "characterCount": 5137,
       "nonWhitespaceCharacterCount": 3893,
       "newlineCount": 143,
-      "readingTimeInMinutes": 1.9811320754716981,
+      "readingTimeInMinutes": 2.0415094339622644,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1771588073337,
-      "modifiedDate": 1771639224272,
-      "sizeInBytes": 5380,
+      "modifiedDate": 1774176818164,
+      "sizeInBytes": 5404,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.75,
@@ -11243,7 +11243,8 @@
           "themes",
           "syntax"
         ],
-        "draft": true
+        "draft": true,
+        "lastmod": "2026-03-22"
       }
     },
     "content/post/image-gallery/2.jpg": {
@@ -12064,6 +12065,33 @@
       "createdDate": 1771597757214,
       "modifiedDate": 1771597743771,
       "sizeInBytes": 14495132,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "content/post/测试是否正常.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 62,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.20666666666666667,
+      "characterCount": 337,
+      "nonWhitespaceCharacterCount": 299,
+      "newlineCount": 23,
+      "readingTimeInMinutes": 0.17366037735849058,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1774176871865,
+      "modifiedDate": 1774175797135,
+      "sizeInBytes": 411,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
