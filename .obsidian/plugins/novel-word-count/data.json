@@ -11059,97 +11059,6 @@
         }
       }
     },
-    "content/post/大模型知识之一 —— 基础架构.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 1436,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 4.786666666666667,
-      "characterCount": 5452,
-      "nonWhitespaceCharacterCount": 4771,
-      "newlineCount": 207,
-      "readingTimeInMinutes": 3.512264150943396,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1771596069932,
-      "modifiedDate": 1774175682572,
-      "sizeInBytes": 8064,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 4.786666666666667,
-        "wordCount": 1436,
-        "characterCount": 5452,
-        "nonWhitespaceCharacterCount": 4771,
-        "newlineCount": 207
-      },
-      "frontmatter": {
-        "title": "大模型知识之一——基础架构",
-        "description": null,
-        "date": "2026-02-20",
-        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
-        "tags": [
-          "llm"
-        ],
-        "categories": [
-          "技术"
-        ],
-        "math": true,
-        "license": null,
-        "hidden": false,
-        "comments": true,
-        "draft": false,
-        "toc": false,
-        "lastmod": "2026-02-21"
-      }
-    },
-    "content/post/两次短暂苏州之行.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 959,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 3.1966666666666668,
-      "characterCount": 2345,
-      "nonWhitespaceCharacterCount": 2215,
-      "newlineCount": 62,
-      "readingTimeInMinutes": 1.9623396226415095,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1774050683779,
-      "modifiedDate": 1774100534997,
-      "sizeInBytes": 4681,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 3.1966666666666668,
-        "wordCount": 959,
-        "characterCount": 2345,
-        "nonWhitespaceCharacterCount": 2215,
-        "newlineCount": 62
-      },
-      "frontmatter": {
-        "title": "两次短暂苏州之行",
-        "description": "苏州游记",
-        "date": "2024-06-22",
-        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/DEFG6853.JPG",
-        "tags": null,
-        "categories": null,
-        "math": false,
-        "license": null,
-        "hidden": false,
-        "comments": true,
-        "draft": false,
-        "toc": false,
-        "build": {
-          "list": "always"
-        },
-        "lastmod": "2026-02-23"
-      }
-    },
     "content/post/shortcodes/cover.jpg": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -11209,53 +11118,6 @@
         "date": "2023-08-25 00:00:00+0000",
         "image": "cover.jpg",
         "draft": true
-      }
-    },
-    "content/post/nas折腾小记.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 2115,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 7.05,
-      "characterCount": 4390,
-      "nonWhitespaceCharacterCount": 4166,
-      "newlineCount": 78,
-      "readingTimeInMinutes": 4.487169811320754,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1774175748792,
-      "modifiedDate": 1774175748792,
-      "sizeInBytes": 8966,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 7.05,
-        "wordCount": 2115,
-        "characterCount": 4390,
-        "nonWhitespaceCharacterCount": 4166,
-        "newlineCount": 78
-      },
-      "frontmatter": {
-        "title": "NAS折腾小记",
-        "description": null,
-        "date": "2026-02-21",
-        "image": "https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake",
-        "tags": "生活",
-        "categories": [
-          "nas"
-        ],
-        "math": true,
-        "license": null,
-        "hidden": false,
-        "comments": true,
-        "draft": false,
-        "toc": true,
-        "build": {
-          "list": "always"
-        },
-        "lastmod": "2026-02-23"
       }
     },
     "content/post/2024年度总结.md": {
@@ -12202,33 +12064,6 @@
       "createdDate": 1771597757214,
       "modifiedDate": 1771597743771,
       "sizeInBytes": 14495132,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "content/post/测试是否正常.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 61,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.20333333333333334,
-      "characterCount": 327,
-      "nonWhitespaceCharacterCount": 290,
-      "newlineCount": 23,
-      "readingTimeInMinutes": 0.1698867924528302,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1774175787890,
-      "modifiedDate": 1774175787891,
-      "sizeInBytes": 401,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
