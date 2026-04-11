@@ -101,8 +101,8 @@ body {
     --nn-file-title-line-height-mobile: 21px; /* Mobile title text height */
     --nn-file-single-text-line-height-mobile: 20px; /* Mobile single-line text height */
     --nn-file-multiline-text-line-height-mobile: 19px; /* Mobile preview text height */
-    --nn-feature-image-min-size: 42px; /* Minimum size for feature images */
-    --nn-feature-image-max-size: 64px; /* Maximum size for feature images */
+    --nn-file-thumbnail-min-size: 42px; /* Minimum size for file thumbnails */
+    --nn-file-thumbnail-max-size: 64px; /* Maximum size for file thumbnails */
 
     /* Font sizes - fixed pixel values to prevent scaling with Obsidian font size */
     --nn-file-name-size: 14px; /* Fixed 14px */
@@ -2611,10 +2611,6 @@ body {
     cursor: pointer;
     box-shadow: none !important;
     outline: none;
-    transition:
-        background-color 120ms ease,
-        filter 120ms ease,
-        box-shadow 120ms ease;
 }
 
 .nn-navigation-calendar-period-button {
@@ -2653,6 +2649,11 @@ body {
     text-underline-offset: 2px;
 }
 
+.nn-navigation-calendar-period-button.is-active-editor-file,
+.nn-navigation-calendar-weeknumber.is-active-editor-file {
+    box-shadow: inset 0 0 0 2px var(--nn-calendar-active-editor-border-color) !important;
+}
+
 .nn-navigation-calendar button.nn-navigation-calendar-period-button {
     color: var(--nn-theme-calendar-header-color);
 }
@@ -2679,7 +2680,6 @@ body {
     color: var(--nn-theme-foreground-muted);
     z-index: 0;
     flex: 0 0 auto;
-    transition: opacity 120ms ease;
 }
 
 .nn-navigation-calendar-month-help {
@@ -3616,6 +3616,7 @@ body {
 
 /* File - container for each file in the list */
 .nn-file {
+    --nn-file-item-border-radius: min(16px, var(--nn-theme-file-border-radius));
     background: transparent;
     padding: 0;
     -webkit-user-select: none;
@@ -3637,18 +3638,31 @@ body {
 .nn-file-content {
     padding: var(--nn-file-padding-vertical-mobile, var(--nn-file-padding-vertical)) var(--nn-file-item-padding-horizontal);
     margin: 0;
-    border-radius: min(16px, var(--nn-theme-file-border-radius));
+    border-radius: var(--nn-file-item-border-radius);
     background: transparent;
     position: relative; /* For absolute positioning of reveal overlay */
 }
 
-.nn-file.nn-has-custom-background .nn-file-content {
+.nn-file.nn-has-custom-background::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    /* Extend slightly beyond bottom item bounds (height rounding issue) to prevent hairline gaps when zoomed */
+    bottom: -0.2px;
     background-color: var(--nn-file-custom-bg-color);
-    border-top-left-radius: var(--nn-file-top-left-radius, min(16px, var(--nn-theme-file-border-radius)));
-    border-top-right-radius: var(--nn-file-top-right-radius, min(16px, var(--nn-theme-file-border-radius)));
-    border-bottom-left-radius: var(--nn-file-bottom-left-radius, min(16px, var(--nn-theme-file-border-radius)));
-    border-bottom-right-radius: var(--nn-file-bottom-right-radius, min(16px, var(--nn-theme-file-border-radius)));
+    border-top-left-radius: var(--nn-file-top-left-radius, var(--nn-file-item-border-radius));
+    border-top-right-radius: var(--nn-file-top-right-radius, var(--nn-file-item-border-radius));
+    border-bottom-left-radius: var(--nn-file-bottom-left-radius, var(--nn-file-item-border-radius));
+    border-bottom-right-radius: var(--nn-file-bottom-right-radius, var(--nn-file-item-border-radius));
     box-shadow: inset 0 0 0 var(--nn-theme-file-border-width) transparent;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.nn-file.nn-has-custom-background > .nn-file-content {
+    z-index: 2;
 }
 
 .nn-virtual-file-item:has(> .nn-file.nn-has-custom-background)::after,
@@ -3747,7 +3761,7 @@ body {
     flex-direction: column;
     gap: 0;
     order: 1; /* Ensure it appears on the left */
-    min-height: var(--nn-feature-image-min-size); /* Minimum height to match minimum image size */
+    min-height: var(--nn-file-thumbnail-min-size); /* Minimum height to match minimum thumbnail size */
     justify-content: flex-start; /* Top-align content */
     /* No align-self - let it stretch naturally */
 }
@@ -3842,7 +3856,7 @@ body {
     top: 8px; /* Default: 8px for normal mode */
     inset-inline-end: 8px;
     height: 20px;
-    display: none;
+    display: flex;
     background: var(--nn-theme-quick-actions-bg);
     border: 1px solid var(--nn-theme-quick-actions-border);
     border-radius: min(12px, var(--nn-theme-quick-actions-border-radius));
@@ -3889,12 +3903,6 @@ body {
 .nn-quick-actions-panel.nn-compact-mode[data-title-rows='2'],
 .nn-quick-actions-panel.nn-compact-mode[data-has-tags='true'] {
     top: var(--nn-file-padding-vertical-compact);
-}
-
-/* Panel appears when hovering anywhere on file row */
-.nn-desktop .nn-file:hover .nn-quick-actions-panel,
-.nn-desktop.nn-single-pane .nn-file:hover .nn-quick-actions-panel {
-    display: flex;
 }
 
 /* Second line container - holds date and preview text */
@@ -4188,9 +4196,12 @@ body {
    ======================================================================== */
 
 /* Compact file item - more compact list appearance */
+.nn-file.nn-compact {
+    --nn-file-item-border-radius: min(14px, var(--nn-theme-navitem-border-radius));
+}
+
 .nn-file.nn-compact .nn-file-content {
     padding: var(--nn-file-padding-vertical-compact) var(--nn-file-item-padding-horizontal); /* Reduced vertical padding */
-    border-radius: min(14px, var(--nn-theme-navitem-border-radius));
 }
 
 /* Compact file name - no bold, smaller font like folder items */
@@ -4231,14 +4242,14 @@ body {
 .nn-file.nn-compact.nn-selected .nn-file-name[data-has-color='true'] {
     color: var(--nn-file-name-custom-color);
 }
-/* Source: src/styles/sections/list-feature-images.css */
+/* Source: src/styles/sections/list-file-thumbnails.css */
 
 /* ========================================================================
-   Feature Image Styles
+   File Thumbnail Styles
    ======================================================================== */
 
-/* Feature image container - right-aligned image thumbnail */
-.nn-feature-image {
+/* File thumbnail container - right-aligned thumbnail slot */
+.nn-file-thumbnail {
     flex-shrink: 0;
     border-radius: min(32px, var(--nn-theme-file-feature-border-radius));
     overflow: hidden;
@@ -4248,59 +4259,72 @@ body {
     align-self: center;
 }
 
-.nn-feature-image--square {
-    width: var(--nn-feature-image-min-size);
-    height: var(--nn-feature-image-min-size);
+.nn-file-thumbnail--square {
+    width: var(--nn-file-thumbnail-min-size);
+    height: var(--nn-file-thumbnail-min-size);
 }
 
-.nn-feature-image--natural {
+.nn-file-thumbnail--natural {
     width: auto;
-    height: var(--nn-feature-image-min-size);
-    aspect-ratio: var(--nn-feature-image-aspect-ratio, 1);
+    height: var(--nn-file-thumbnail-min-size);
+    aspect-ratio: var(--nn-file-thumbnail-aspect-ratio, 1);
 }
 
-.nn-feature-image--hidden {
+.nn-file-thumbnail--hidden {
     display: none;
 }
 
 /* Dynamic sizing based on calculated item height */
-.nn-virtual-file-item .nn-feature-image {
+.nn-virtual-file-item .nn-file-thumbnail {
     /* Size based on item height minus total padding */
     --image-size: clamp(
-        var(--nn-feature-image-min-size),
+        var(--nn-file-thumbnail-min-size),
         calc(var(--item-height) - var(--nn-file-padding-total-mobile, var(--nn-file-padding-total))),
-        var(--nn-feature-image-max-size)
+        var(--nn-file-thumbnail-max-size)
     );
 }
 
-.nn-virtual-file-item .nn-feature-image--square {
+.nn-virtual-file-item .nn-file-thumbnail--square {
     width: var(--image-size);
     height: var(--image-size);
 }
 
-.nn-virtual-file-item .nn-feature-image--natural {
+.nn-virtual-file-item .nn-file-thumbnail--natural {
     height: var(--image-size);
     max-height: var(--image-size);
 }
 
-/* Feature image element - covers container with proper aspect ratio */
-.nn-feature-image-img {
+/* Thumbnail image element - covers container with proper aspect ratio */
+.nn-file-thumbnail-img {
     width: 100%;
     height: 100%;
 }
 
-.nn-feature-image--square .nn-feature-image-img {
+.nn-file-thumbnail--inset-highlight::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow:
+        inset 0 0 0 1px rgba(255, 255, 255, 0.14),
+        inset 0 1px 0 rgba(255, 255, 255, 0.24),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.nn-file-thumbnail--square .nn-file-thumbnail-img {
     object-fit: cover;
     object-position: center top;
 }
 
-.nn-feature-image--natural .nn-feature-image-img {
+.nn-file-thumbnail--natural .nn-file-thumbnail-img {
     object-fit: contain;
     object-position: center;
 }
 
 /* Selected file image - slightly transparent when selected */
-.nn-file.nn-selected .nn-feature-image {
+.nn-file.nn-selected .nn-file-thumbnail {
     opacity: 0.9;
 }
 
@@ -4505,13 +4529,9 @@ body {
     bottom: -0.2px;
     /* Pre-composited solid color prevents hairlines by blending alpha with pane background */
     background-color: var(--nn-selected-file-bg-color);
-    border-radius: min(16px, var(--nn-theme-file-border-radius));
+    border-radius: var(--nn-file-item-border-radius);
     box-shadow: inset 0 0 0 var(--nn-theme-file-border-width) var(--nn-selected-file-border-color);
     z-index: 0; /* Below separator lines */
-}
-
-.nn-file.nn-compact.nn-selected .nn-file-content::before {
-    border-radius: min(14px, var(--nn-theme-navitem-border-radius));
 }
 
 /* Adjust rounded corners for multiselection */
@@ -6094,6 +6114,42 @@ body.nn-resizing {
 
 .is-mobile .modal.nn-property-keys-modal .nn-property-keys-footer {
     padding-top: var(--size-2-3);
+}
+/* Source: src/styles/sections/modal-settings-transfer.css */
+
+/* ========================================================================
+   Settings transfer modal
+   ======================================================================== */
+
+.modal.nn-settings-transfer-modal {
+    width: min(720px, calc(100vw - 80px));
+    max-width: min(720px, calc(100vw - 80px));
+}
+
+.modal.nn-settings-transfer-modal .modal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.nn-settings-transfer-editor-setting {
+    margin-bottom: 0;
+}
+
+.nn-settings-transfer-editor {
+    min-height: 280px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    resize: vertical;
+    font-family: var(--font-monospace);
+    line-height: 1.5;
+}
+
+.is-mobile .modal.nn-settings-transfer-modal {
+    max-width: calc(100vw - 24px);
+}
+
+.is-mobile .modal.nn-settings-transfer-modal .nn-settings-transfer-editor {
+    min-height: 220px;
 }
 /* Source: src/styles/sections/layout-virtual-list.css */
 
