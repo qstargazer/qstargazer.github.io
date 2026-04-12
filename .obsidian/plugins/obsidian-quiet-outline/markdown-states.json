@@ -438,18 +438,21 @@
     "expandedKeys": []
   },
   "content/post/nas折腾小记.md": {
-    "scroll": 6.518010291595197,
+    "scroll": 27.622307064253626,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 0
+        "line": 33,
+        "ch": 46
       },
       "to": {
-        "line": 19,
-        "ch": 0
+        "line": 33,
+        "ch": 46
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
   },
   "content/post/驾考经验总结.md": {
     "scroll": 83.32,
