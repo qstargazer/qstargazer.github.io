@@ -1,0 +1,30 @@
+<script>
+    (function () {
+        var storageKey = 'stack-toc-display-mode';
+        var body = document.body;
+        var toggleButton = document.querySelector('[data-toc-action="toggle"]');
+
+        if (!body || !toggleButton) return;
+
+        function setMode(mode) {
+            body.classList.toggle('toc-hidden', mode === 'hidden');
+
+            toggleButton.setAttribute('aria-expanded', mode === 'hidden' ? 'false' : 'true');
+            toggleButton.setAttribute('aria-label', mode === 'hidden' ? 'Show table of contents' : 'Hide table of contents');
+
+            try {
+                localStorage.setItem(storageKey, mode);
+            } catch (error) {}
+        }
+
+        try {
+            setMode(localStorage.getItem(storageKey) || 'expanded');
+        } catch (error) {
+            setMode('expanded');
+        }
+
+        toggleButton.addEventListener('click', function () {
+            setMode(body.classList.contains('toc-hidden') ? 'expanded' : 'hidden');
+        });
+    })();
+</script>
