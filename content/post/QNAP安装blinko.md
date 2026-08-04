@@ -1,5 +1,5 @@
 ---
-title: "QNAP安装blinko"
+title: QNAP安装blinko
 description:
 date: 2026-08-04
 image: https://image-1258996033.cos.ap-shanghai.myqcloud.com/westlake
@@ -9,7 +9,7 @@ math: true
 license:
 hidden: false
 comments: true
-draft: true
+draft: false
 toc: true
 build:
   list: always
