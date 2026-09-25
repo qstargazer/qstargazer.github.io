@@ -65,7 +65,7 @@ From the repository root, inspect the exact article and run the strongest availa
 
 ```bash
 python3 -c 'import pathlib, yaml; p=pathlib.Path("content/post/ARTICLE.md"); yaml.safe_load(p.read_text().split("---", 2)[1]); print("YAML OK")'
-rg -n '<|{{' 'content/post/ARTICLE.md'
+rg -n '<|\{\{' 'content/post/ARTICLE.md'
 hugo --gc --minify
 ```
 
